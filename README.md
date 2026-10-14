@@ -27,6 +27,10 @@
 </div>
 
 シミュレーションでの動作例(2リンク):
+<div align="center">
+  <img src="acrobot_result2.gif" alt="シミュレーションでの動作例" width="60%">
+</div>
+
 
 <div align="center">
   <img src="acrobot_result.gif" alt="シミュレーションでの動作例" width="60%">
