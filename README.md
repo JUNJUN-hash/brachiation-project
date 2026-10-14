@@ -28,12 +28,17 @@
 
 シミュレーションでの動作例(2リンク):
 <div align="center">
-  <img src="acrobot_result2.gif" alt="シミュレーションでの動作例" width="60%">
+  <figure>
+    <img src="acrobot_result2.gif" alt="剛性枝の跳躍" width="60%">
+    <figcaption>剛性枝の跳躍</figcaption>
+  </figure>
 </div>
 
-
 <div align="center">
-  <img src="acrobot_result.gif" alt="シミュレーションでの動作例" width="60%">
+  <figure>
+    <img src="acrobot_result.gif" alt="弾性枝の跳躍" width="60%">
+    <figcaption>弾性枝の跳躍</figcaption>
+  </figure>
 </div>
 
 ---
@@ -111,8 +116,6 @@ brachiation-project/
 │   ├── brachiation_transfer_env.py # 条件を拡張した環境
 │   └── hardware_consideration/     # 単リンクの検証用スクリプト(実測値・ゲインは含みません)
 ├── models/                         # 学習済みモデルの保存先(非公開)
-├── ppo_log/                        # 剛体枝モデルの学習ログ
-├── logs_hybrid_branch/             # 弾性枝モデルの学習ログ
 ├── pendulum_dynamics.py            # 力学モデル(剛体枝)
 ├── custom_numpy_env.py             # Gymnasium環境(弾性枝)
 ├── pendulum_leap_train.py          # 学習スクリプト(剛体枝、PPO)
