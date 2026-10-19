@@ -1,0 +1,17 @@
+# 仮想環境
+.venv/
+venv/
+
+# 学習ログ・生成物
+ppo_log/
+brachiation/
+*.zip
+__pycache__/
+.DS_Store
+
+# Models and Videos
+models/
+videos/
+
+# Utilities / Scripts (非公開にしたいスクリプト)
+convert_to_gif.py
